@@ -1,0 +1,5 @@
+---
+accounts::realize:
+  - alice
+  - bob
+  - carol
