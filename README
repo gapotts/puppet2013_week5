@@ -1,8 +1,8 @@
-# Exercise 2, create roles:
+# Exercise 2 solution, create roles:
 #                           mysql
 #                           webserver
-#                           lamp-dev
+#                           webserver/dev
 #                           base
 #
 # Apply with:
-sudo puppet apply --verbose --modulepath=./modules -e 'include profiles::apache'
+sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver'
