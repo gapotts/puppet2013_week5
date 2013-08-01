@@ -1,8 +1,8 @@
-# Exercise 2 solution, create roles:
-#                           mysql
-#                           webserver
-#                           webserver/dev
-#                           base
+# Exercise 3 anchors:
+# Add Anchor tags to all modules. Visualise, before and after to see the relationships between classes
 #
 # Apply with:
-sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver'
+sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver' --graph
+
+# Visualise:
+sudo dot -Tpng /var/lib/puppet/state/graphs/expanded_relationships.dot -o /tmp/anchors.png
