@@ -1,1 +1,7 @@
-Initial commit.
+# This is an example of Virtual Resources utilizing Hiera
+#
+# Apply with:
+
+cd /opt/puppet/week_5
+sudo puppet apply --verbose --hiera_config=./hiera.yaml accounts.pp --noop
+sudo puppet apply --verbose --hiera_config=./hiera.yaml accounts.pp --noop --environment=development
