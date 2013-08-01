@@ -1,4 +1,8 @@
-# Exercise 1: Split Apache into apache and PHP modules
-#             Write a profile
+# Exercise 2, create roles:
+#                           mysql
+#                           webserver
+#                           lamp-dev
+#                           base
+#
 # Apply with:
 sudo puppet apply --verbose --modulepath=./modules -e 'include profiles::apache'
