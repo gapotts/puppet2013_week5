@@ -1,3 +1,4 @@
-# Exercise_8_solution: Add a smoke test to your apache module
+# Exercise 1: Split Apache into apache and PHP modules
+#             Write a profile
 # Apply with:
-sudo puppet apply --verbose --modulepath=./modules ./modules/apache/tests/init.pp
+sudo puppet apply --verbose --modulepath=./modules ./manifests/site.pp
