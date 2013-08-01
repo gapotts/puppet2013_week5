@@ -1,4 +1,4 @@
 # Exercise 1: Split Apache into apache and PHP modules
 #             Write a profile
 # Apply with:
-sudo puppet apply --verbose --modulepath=./modules ./manifests/site.pp
+sudo puppet apply --verbose --modulepath=./modules -e 'include profiles::apache'
