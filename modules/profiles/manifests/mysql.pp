@@ -1,3 +1,3 @@
 class profiles::mysql {
-  include mysql
+  include ::mysql
 }
