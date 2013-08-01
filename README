@@ -1,8 +1,4 @@
-# Exercise 2 solution, create roles:
-#                           mysql
-#                           webserver
-#                           webserver/dev
-#                           base
+# Exercise 3 solution, add anchors
 #
 # Apply with:
-sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver'
+sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver' --graph true
