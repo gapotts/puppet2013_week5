@@ -2,3 +2,6 @@
 #
 # Apply with:
 sudo puppet apply --verbose --modulepath=./modules -e 'include roles::webserver' --graph true
+
+# Install graphvis and visualize with:
+sudo dot -Tpng /var/lib/puppet/state/graphs/expanded_relationships.dot -o /tmp/anchors.png
