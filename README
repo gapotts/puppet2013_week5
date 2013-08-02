@@ -1,1 +1,3 @@
-Initial commit.
+# A non working example of exported resources.
+# Exports a host record. Applies all exported host records.
+# This example has a high risk of colisions.
